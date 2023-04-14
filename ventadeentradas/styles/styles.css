@@ -1,0 +1,93 @@
+.card{
+    padding: 10px;
+    text-align: center;
+}
+
+h1{
+    font-size: medium;
+    font-weight: 800;
+    text-align: center;
+}
+
+p{
+    margin-left: 5px;
+}
+
+body{
+    background-color: lightslategrey;
+}
+
+.navbar{
+    background-color: #5A5A5A;
+}
+
+.main-box{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    flex-wrap: wrap;
+    margin: 20px;
+    gap: 50px;
+}
+
+.card{
+    width: 100%;
+    height: 100%;
+
+}
+
+.img-box{
+    width: 100%;
+    height: 100%;
+}
+
+.img-box img{
+    width: 100%;
+    height: 100%;
+}
+
+button{
+    height: 30px;
+    background-color: cornflowerblue;
+    border-radius: 5px; 
+}
+
+button{
+    background-color: #c2fbd7;
+    border-radius: 100px;
+    box-shadow: rgba(44, 187, 99, .2) 0 -25px 18px -14px inset,rgba(44, 187, 99, .15) 0 1px 2px,rgba(44, 187, 99, .15) 0 2px 4px,rgba(44, 187, 99, .15) 0 4px 8px,rgba(44, 187, 99, .15) 0 8px 16px,rgba(44, 187, 99, .15) 0 16px 32px;
+    color: green;
+    cursor: pointer;
+    display: inline-block;
+    font-family: CerebriSans-Regular,-apple-system,system-ui,Roboto,sans-serif;
+    padding: 7px 20px;
+    text-align: center;
+    justify-items: center;
+    text-decoration: none;
+    transition: all 250ms;
+    border: 0;
+    font-size: 16px;
+    user-select: none;
+    -webkit-user-select: none;
+    touch-action: manipulation;
+    }
+
+button:hover{
+        box-shadow: rgba(44,187,99,.35) 0 -25px 18px -14px inset,rgba(44,187,99,.25) 0 1px 2px,rgba(44,187,99,.25) 0 2px 4px,rgba(44,187,99,.25) 0 4px 8px,rgba(44,187,99,.25) 0 8px 16px,rgba(44,187,99,.25) 0 16px 32px;
+        transform: scale(1.05);
+    }
+
+nav button{
+    background-color: white;
+    box-shadow: none;
+}
+
+.borrar{
+    background-color: red;
+    color: whitesmoke;
+    margin: 0.5em;
+}
+
+.borrar:hover{
+    box-shadow: rgba(238, 25, 10, 0.35) 0 -25px 18px -14px inset,rgba(235, 42, 13, 0.25) 0 1px 2px,rgba(44,187,99,.25) 0 2px 4px,rgba(214, 84, 9, 0.25) 0 4px 8px,rgba(217, 63, 12, 0.25) 0 8px 16px,rgba(237, 61, 13, 0.25) 0 16px 32px;
+    transform: scale(1.05);
+}
